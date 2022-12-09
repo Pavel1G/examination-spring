@@ -1,0 +1,20 @@
+### Добавить вопрос-ответ в список
+GET http://localhost:8080/exam/java/add?question=questionString&answer=answerString
+
+### Добавить вопрос-ответ в список
+GET http://localhost:8080/exam/java/add?question=questionString1&answer=answerString1
+
+### Добавить вопрос-ответ в список
+GET http://localhost:8080/exam/java/add?question=questionString2&answer=answerString2
+
+### Добавить вопрос-ответ в список
+GET http://localhost:8080/exam/java/add?question=questionString3&answer=answerString3
+
+### Получить коллекцию вопрос-ответов
+GET http://localhost:8080/exam/java
+
+### Удаление вопрос-ответа из коллекции
+GET http://localhost:8080/exam/java/remove?question=questionString1&answer=answerString1
+
+### Получить спискок вопросов-ответов рандомно
+GET http://localhost:8080/exam/java/get?amount=1
